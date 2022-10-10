@@ -1,0 +1,21 @@
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+}
+.imagen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    background:linear-gradient(to right,rgb(0 0 0/ .5),rgb(0 0 0/ .5)), url(/src/main/front/img/flota.jpeg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-end-start-radius: 20%;
+    border-end-end-radius: 20%;
+}
+.imagen-texto{
+    color: rgb(214, 212, 192);
+    text-align: left;
+    width: 50%;
+}

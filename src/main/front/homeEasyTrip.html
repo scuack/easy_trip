@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyTrip</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="interfazHome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body style="background-color:#eeeae4;">
+
+<!-- Barra de navegación-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-3 border-bottom border-warning fixed-top row p-0">
+        <div class="col-lg-3 container-fluid px-4">
+            <a href="#" class="navbar-brand">EasyTrip</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".desplegable">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="desplegable collapse navbar-collapse col-lg-6">
+            <div class="text-end m-auto">
+                <ul class="navbar-nav">
+                    <li><a href="#rutas" class="navbar-brand" style="font-size:15px">Rutas</a></li>
+                    <li><a href="#quienesSomos" class="navbar-brand" style="font-size:15px">¿Quienes somos?</a></li>
+                    <li><a href="#contacto" class="navbar-brand" style="font-size:15px">Contactanos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="desplegable collapse navbar-collapse col-lg-3">
+            <div class="text-end ms-auto">
+                <ul class="navbar-nav">
+                    <li><a href="registrarseEasyTrip.html" class="navbar-brand"style="font-size:15px">Registrarse</a></li>
+                    <li><a href="iniciarSesionEasyTrip.html" class="navbar-brand"style="font-size:15px">Iniciar Sesión</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Presentación -->
+    <div class="imagen px-4" >
+        <div class="imagen-texto">
+            <h2 style="color:#d4b30e;font-size:40px;" class="fw-blond"><br><br>¡Viajes tan únicos</h2>
+            <h1 style="font-size:50px;">como su destino!<br><br></h1>
+            <h3 style="font-family:courier;">Llevamos más de 6 años brindando las mejores experiencias.</h3>
+        </div>
+    </div>
+
+<!-- Rutas disponibles -->
+    <div id="rutas" class="container my-4 py-3 px-2">
+        <h1 style="text-align:center;">Rutas disponibles</h1>
+<!-- Ruta 1 -->
+        <div class="d-grid gap-2 col-4 mx-4 py-3">
+            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#ruta1" aria-expanded="false" aria-controls="ruta1">Bogotá - Calí</button>
+        </div>
+        <div class="collapse" id="ruta1">
+            <div class="card-body mx-5" style="background-color:#eae4cc;">
+                <p class="card-text">
+                    Cupos dispinobles: 3<br>
+                    Hora de salida: 16:00 <br>
+                    Valor por persona: $35.000
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a href="#"><button type="button" class="btn btn-outline-dark">Comprar</button></a>
+                </div>
+            </div>
+        </div>
+<!-- Ruta 2 -->
+        <div class="d-grid gap-2 col-4 mx-4 py-3">
+            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#ruta2" aria-expanded="false" aria-controls="ruta2">Bogotá - Útica</button>
+        </div>
+        <div class="collapse" id="ruta2">
+            <div class="card card-body mx-5" style="background-color:#eae4cc;">
+                Cupos dispinobles: 8 <br>
+                Hora de salida: 04:00 <br>
+                Valor por persona: $23.000
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a href="#"><button type="button" class="btn btn-outline-dark">Comprar</button></a>
+                </div>
+            </div>
+        </div>
+<!-- Ruta 3 -->
+        <div class="d-grid gap-2 col-4 mx-4 py-3">
+            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#ruta3" aria-expanded="false" aria-controls="ruta3">Bogotá - Guayata</button>
+        </div>
+        <div class="collapse" id="ruta3">
+            <div class="card card-body mx-5" style="background-color:#eae4cc;">
+                Cupos dispinobles: 11 <br>
+                Hora de salida: 06:00 <br>
+                Valor por persona: $15.000
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a href="#"><button type="button" class="btn btn-outline-dark">Comprar</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Información -->
+    <div class="container py-4 text-center" id="quienesSomos" style="background-color:#e9e3da;">
+        <div class="container col-7">
+            <h2>¿Quienes somos?<br><br></h2>
+            <p> Empresa dedicada al transporte terrestre de ciudadanos con sede en Bogotá, tenemos la intención de brindar la mejor experiencia en carretera para los capitalinos y proporcionar el transporte para que disfruten de sus vacaciones </p><br>
+        </div>
+        <div class="container col-7">
+            <h4>Misión</h4>
+            <p> Ser una empresa competitiva en el servicio público de transporte, comprometida en el mejoramiento continuo a fin de fidelizar a sus clientes a través de la estrategia organizacional, parque automotor renovado, tecnología de vanguardia y sustentabilidad con el medio ambiente, propendiendo por el desarrollo económico y social. </p><br>
+        </div>
+        <div class="container col-7">
+            <h4>Visión</h4>
+            <p> Ser una empresa líder en la prestación del Servicio Público de Transporte a través de servicios propios y aliados estratégicos, con tecnología de punta y recurso humano comprometido y competente, que nos permita bajo estándares internacionales de calidad prestar un servicio inigualable. </p><br>
+        </div>
+    </div>
+
+<!-- Contacto -->
+<footer id="contacto">
+    <div style="background-color:#eeeae4; height: 50vh; padding-top: 5vh;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" >
+                    <div class="text-center">
+                        <h1>Contactanos</h1>
+                        <br>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 text-end">
+                            <img src="/src/main/front/img/telephone-fill.svg" width="40" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <p>+57 1234567890 <br> +57 9876543210</p><br><br>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h1>Redes sociales</h1>
+                        <a class="btn btn-outline-danger w-25" href="#" ><i class="fa-brands fa-google " ></i></a>
+                        <a class="btn btn-outline-primary w-25" href="#" ><i class="fa-brands fa-facebook " ></i></a>
+                        <a class="btn btn-outline-primary w-25" href="#" ><i class="fa-brands fa-twitter " ></i></a>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-md-6 m-auto" >
+                    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.663314293844!2d-74.11716188523786!3d4.653995896619306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b8ef87f4337%3A0x8c699799d258ea21!2sTerminal%20de%20Transporte%20S.A.!5e0!3m2!1ses!2sco!4v1664067338914!5m2!1ses!2sco" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+body {
+    height: 700px;
+    background:linear-gradient(to right,rgb(0 0 0/ .5),rgb(0 0 0/ .5)), url(/src/main/front/img/flota.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
